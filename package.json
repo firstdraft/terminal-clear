@@ -1,0 +1,20 @@
+{
+  "name": "terminal-clear",
+  "displayName": "terminal-clear",
+  "description": "clears terminal",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Keymaps"
+  ],
+  "contributes": {
+    "keybindings": [
+      {
+        "key": "ctrl+k",
+        "command": "workbench.action.terminal.clear"
+      }
+    ]
+  }
+}
