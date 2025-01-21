@@ -1,7 +1,7 @@
 {
-  "name": "appdev-keybindings",
-  "displayName": "AppDev Keybindings",
-  "description": "Adds consistent keybindings for AppDev students in VSCode.",
+  "name": "terminal-clear",
+  "displayName": "Terminal Clear",
+  "description": "Adds consistent ctrl+k keybinding to clear the terminal.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.95.0"
