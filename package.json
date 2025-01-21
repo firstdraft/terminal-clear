@@ -1,7 +1,7 @@
 {
-  "name": "terminal-clear",
-  "displayName": "terminal-clear",
-  "description": "clears terminal",
+  "name": "appdev-keybindings",
+  "displayName": "AppDev Keybindings",
+  "description": "Adds consistent keybindings for AppDev students in VSCode.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.95.0"
@@ -13,7 +13,8 @@
     "keybindings": [
       {
         "key": "ctrl+k",
-        "command": "workbench.action.terminal.clear"
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
       }
     ]
   }
