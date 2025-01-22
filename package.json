@@ -1,7 +1,7 @@
 {
   "name": "terminal-clear",
-  "displayName": "terminal-clear",
-  "description": "clears terminal",
+  "displayName": "Terminal Clear",
+  "description": "Adds consistent ctrl+k keybinding to clear the terminal.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.95.0"
@@ -13,7 +13,8 @@
     "keybindings": [
       {
         "key": "ctrl+k",
-        "command": "workbench.action.terminal.clear"
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus && terminalHasBeenCreated && !accessibilityModeEnabled || terminalFocus && terminalProcessSupported && !accessibilityModeEnabled || accessibilityModeEnabled && accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewIsShown && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
       }
     ]
   }
