@@ -3,6 +3,12 @@
   "displayName": "Terminal Clear",
   "description": "Adds consistent ctrl+k keybinding to clear the terminal.",
   "version": "0.0.1",
+  "publisher": "firstdraft",
+  "license": "MIT",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/firstdraft/terminal-clear"
+	},
   "engines": {
     "vscode": "^1.95.0"
   },
